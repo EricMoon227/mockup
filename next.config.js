@@ -1,4 +1,5 @@
 const withFonts = require('next-fonts');
-const withImages = require('next-images');
+const withImages = require('next-images');const withCSS = require("@zeit/next-css");
+// module.exports = withCSS();
 
-module.exports = withFonts(withImages());
+module.exports = withCSS(withFonts(withImages()));
