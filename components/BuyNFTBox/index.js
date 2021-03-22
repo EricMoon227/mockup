@@ -1,0 +1,1 @@
+export { default as BuyNFTBox } from './BuyNFTBox';

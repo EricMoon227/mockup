@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+   /* background-color: #161616;*/
+}
+.sale__progress-box-bar {
+    overflow: visible;
+    position: relative;
+    background: #eb005b;
+    border: none;
+    color: rgba(0, 0, 0, 0.9);
+}
+.sale__progress-box-progress, .sale__progress-box-bar {
+    height: .5rem;
+    box-shadow: none;
+    border-radius: 0;
+    width: 160px;
+  
+    border-right: .3rem solid white;
+}
+.triangle {
+    height:1rem;
+    width:1rem;
+    border-radius: 0 0 0 1px !important;
+}
