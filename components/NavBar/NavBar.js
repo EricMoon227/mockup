@@ -7,7 +7,7 @@ import { AboutBox } from '../AboutBox'
 import { GalleryBox } from '../GalleryBox'
 import { ModalContext } from '../../contexts';
 import { useState, useContext } from 'react';
-
+//import Button from '../Common/Button';
 const NavBar = () => {
   const wallet = useWallet();
   const router = useRouter(); 
@@ -20,6 +20,7 @@ const NavBar = () => {
       return (
         <Button
           layout="outline"
+         
           className="rounded-md text-sm"
           onClick={() => {
             if (!wallet?.account) {
